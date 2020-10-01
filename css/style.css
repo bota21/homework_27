@@ -10,7 +10,6 @@ body{
   font-size: 14px;
   color: #333;
   padding: 20px;
-  /* background: #000; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,8 +19,116 @@ body{
   height: 45px;
 }
 .menu{
-  /* background: green; */
   width: 60%;
   display: flex;
   justify-content: space-between;
+}
+.menu-list{
+  color: #333;
+}
+.main{
+  font-size: 50px;
+  color: #fff;
+}
+.text-under{
+  font-size: 24px;
+  line-height: 38px;
+}
+.block-first{
+  height: 600px;
+  background: url(../img/image.jpg) no-repeat;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block-second{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.block-second .wrapper-first{
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1efec;
+}
+.logo-block{ 
+  width: 277px;
+  height: 59px;  
+}
+.block-second .wrapper-second{
+  width: 33.3%;
+  background: url(../img/image-1.jpg) no-repeat;
+  background-size: cover;
+}
+.block-second .wrapper-third{
+  width: 33.3%;
+  background: #9b242d;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.after-p{
+  font-size: 16px;
+  line-height: 22px;
+}
+.block-third{
+  display: flex;
+  height: 300px;
+}
+.block-third .wrapper-first{
+  width: 66.6%;
+  font-size: 40px;
+  background: #46a651;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.block-third .after-p{
+  margin: 40px 0;
+  text-align: end;
+}
+.button{
+  background: #348e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+.button a{
+  font-size: 16px;
+  color: #fff;
+}
+.block-third .wrapper-second{
+  width: 33.3%;
+  background: url(../img/image-2.jpg) no-repeat;
+  display: flex;
+}
+.block-forth{
+height: 300px;
+display: flex;
+}
+.block-forth .wrapper-first{
+  width: 66.6%;
+  background: url(../img/image-3.jpg) no-repeat;
+  background-size: cover;
+}
+.block-forth .wrapper-second{
+  width: 33.3%;
+  background: #3b5997;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+.like-fb{
+  margin-top: 20px;
 }
